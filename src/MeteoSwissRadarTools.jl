@@ -4,7 +4,7 @@
 ## Andreas Scheidegger -- andreas.scheidegger@eawag.ch
 ## -------------------------------------------------------
 
-module MeteoSchweizRadarTools
+module MeteoSwissRadarTools
 
 using Images
 

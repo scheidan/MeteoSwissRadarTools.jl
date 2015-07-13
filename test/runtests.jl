@@ -1,4 +1,4 @@
-using MeteoSchweizRadarTools
+using MeteoSwissRadarTools
 using Base.Test
 
 

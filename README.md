@@ -1,15 +1,15 @@
 Utilities to handle radar products of Meteo Swiss
 ==================================================
 
-[![Build Status](https://travis-ci.org/scheidan/MeteoSchweizRadarTools.jl.svg?branch=master)](https://travis-ci.org/scheidan/MeteoSchweizRadarTools.jl)
-[![Coverage Status](https://img.shields.io/coveralls/scheidan/MeteoSchweizRadarTools.jl.svg)](https://coveralls.io/r/scheidan/MeteoSchweizRadarTools.jl?branch=master)
+[![Build Status](https://travis-ci.org/scheidan/MeteoSwissRadarTools.jl.svg?branch=master)](https://travis-ci.org/scheidan/MeteoSwissRadarTools.jl)
+[![Coverage Status](https://img.shields.io/coveralls/scheidan/MeteoSwissRadarTools.jl.svg)](https://coveralls.io/r/scheidan/MeteoSwissRadarTools.jl?branch=master)
 
 
 Installation
 ------------
 
 ```Julia
-Pkg.clone("git://github.com/scheidan/MeteoSchweizRadarTools.jl.git")
+Pkg.clone("git://github.com/scheidan/MeteoSwissRadarTools.jl.git")
 ```
 
 
