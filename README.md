@@ -28,7 +28,7 @@ read_radar(imagepath::String, x1, y1, x2, y2)
 read_radar(image::Image, x1, y1, x2, y2)
 ```
 
-The region of interest to convert is specified with:
+The region of interest is specified with:
  - (`x1`, `y1`), the coordinate CH1903 of the *bottom left* (southwest) point,
  - (`x2`, `y2`), the coordinate CH1903 of the *top right* (north east) point.
 
