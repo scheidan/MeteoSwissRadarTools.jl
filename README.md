@@ -2,9 +2,21 @@ Utilities to handle radar products of Meteo Swiss
 ==================================================
 
 [![Build Status](https://travis-ci.org/scheidan/MeteoSchweizRadarTools.jl.svg?branch=master)](https://travis-ci.org/scheidan/MeteoSchweizRadarTools.jl)
+[![Coverage Status](https://img.shields.io/coveralls/scheidan/MeteoSchweizRadarTools.jl.svg)](https://coveralls.io/r/scheidan/MeteoSchweizRadarTools.jl?branch=master)
 
 
-So far the only fuctionality this package povides is to convert radar
+Installation
+------------
+
+```Julia
+Pkg.clone("git://github.com/scheidan/MeteoSchweizRadarTools.jl.git")
+```
+
+
+Usage
+-----
+
+So far the only functionality this package provides is to convert radar
 `gif` files from Meteo Swiss into arrays of rain intensities.
 
 TZC or RZC products can be imported with
