@@ -32,4 +32,5 @@ The region of interest is specified with:
  - (`x1`, `y1`), the coordinate CH1903 of the *bottom left* (southwest) point,
  - (`x2`, `y2`), the coordinate CH1903 of the *top right* (north east) point.
 
-Note, all coordinate must be multiples of 1000.
+Note, all coordinates must be multiples of 1000.
+
