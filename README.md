@@ -22,15 +22,18 @@ So far the only functionality this package provides is to convert radar
 TZC or RZC products can be imported with
 ```Julia
 # The string contains the path to a radar gif file
-read_radar(imagepath::String, x1, y1, x2, y2)
+A = read_radar(imagepath::String, x1, y1, x2, y2)
 
 # alternatively an already imported as Image can be converted
-read_radar(image::Image, x1, y1, x2, y2)
+A = read_radar(image::Image, x1, y1, x2, y2)
+
+# The array `A` has the same orientation as the gif, i.e. `A[1,1]` is
+# the northwest corner, `A[end,end]` southeast.
 ```
 
 The region of interest is specified with:
  - (`x1`, `y1`), the coordinate CH1903 of the *bottom left* (southwest) point,
- - (`x2`, `y2`), the coordinate CH1903 of the *top right* (north east) point.
+ - (`x2`, `y2`), the coordinate CH1903 of the *top right* (northeast) point.
 
 Note, all coordinates must be multiples of 1000.
 
