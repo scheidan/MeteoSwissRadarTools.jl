@@ -39,7 +39,7 @@ function read_radar(image::Image, x1, y1, x2, y2)
 
     arr_col = float64(reinterpret(Uint8, data(image[xrange, yrange])))
 
-    return convert2rain(arr_col)
+    return convert2rain(arr_col)'
 end
 
 
