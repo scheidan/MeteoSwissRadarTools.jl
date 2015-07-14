@@ -21,4 +21,4 @@ x2, y2 =  555000, 156000
 
 
 arr = read_radar("test.gif", x1, y1, x2, y2)
-@test size(arr) == (5, 6)
+@test size(arr) == (6, 5)
