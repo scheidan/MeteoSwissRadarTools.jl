@@ -38,7 +38,7 @@ The region of interest is specified with:
 Note, all coordinates must be multiples of 1000.
 
 
-The conversion from RGB values ot rain intesities is based on the file
+The conversion from RGB values to rain intensities is based on the file
 [`8bit_Metranet_v102.txt`](references/8bit_Metranet_v102.txt). Negative rain intensities encode the
 following information:
 
