@@ -3,7 +3,7 @@ os:
   - linux
   - osx
 julia:
-  - release
+  - stable
 notifications:
   email: false
 script:

@@ -37,13 +37,13 @@ function read_radar(image::Image, x1, y1, x2, y2)
         error("Only TZC or RZC products can be read.")
     end
 
-    arr_col = float64(reinterpret(Uint8, data(image[xrange, yrange])))
+    arr_col = map(Float64, reinterpret(UInt8, data(image[xrange, yrange])))
 
     return convert2rain(arr_col)'
 end
 
 
-function read_radar(imagepath::String, x1, y1, x2, y2)
+function read_radar(imagepath::AbstractString, x1, y1, x2, y2)
     img = imread(imagepath)
     read_radar(img, x1, y1, x2, y2)
 end
