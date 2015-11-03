@@ -44,7 +44,7 @@ end
 
 
 function read_radar(imagepath::AbstractString, x1, y1, x2, y2)
-    img = imread(imagepath)
+    img = load(imagepath)
     read_radar(img, x1, y1, x2, y2)
 end
 
